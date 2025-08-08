@@ -1,0 +1,26 @@
+{
+  "name": "lentes-tracker",
+  "version": "1.0.0",
+  "description": "App de rastreamento de lentes de contacto",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "keywords": [],
+  "author": "Bruno Ferreira",
+  "license": "MIT",
+  "dependencies": {
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@supabase/supabase-js": "^2.43.5",
+    "expo": "^53.0.20",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.1.1",
+    "react-native": "0.80.2",
+    "react-native-safe-area-context": "^4.8.2",
+    "react-native-screens": "^3.30.0"
+  }
+}
