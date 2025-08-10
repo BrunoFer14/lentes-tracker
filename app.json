@@ -2,6 +2,7 @@
   "expo": {
     "name": "lentes-tracker",
     "slug": "lentes-tracker",
+    "scheme": "lensestracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,18 +13,31 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
     "ios": {
+      "bundleIdentifier": "com.isaakz.lentestracker",
       "supportsTablet": true
     },
+
     "android": {
+      "package": "com.isaakz.lentestracker",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
     },
+
+    "plugins": ["expo-notifications"],
+
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "51a53e84-068f-4a6c-8948-48f4a710f39b"
+      }
     }
   }
 }
